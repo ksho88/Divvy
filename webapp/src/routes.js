@@ -15,9 +15,7 @@ function AppRouter () {
             <li>
               <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Please for the love of all that is holy dont click this button  </a>
             </li>
-            <li>
-              <Link to='./hireMe'>Click here if you would </Link>
-            </li>
+        
           </ul>
         </nav>
         <div className='main-content' css={contentStyle}>
