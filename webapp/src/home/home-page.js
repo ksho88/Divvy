@@ -9,7 +9,7 @@ export function Home () {
   if (loading) {
     return (
       <Fragment>
-        Loading...
+       <iframe src="https://giphy.com/embed/hx3VJAZMCaqVSOly3s" width="480" height="174" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/tech-code-coding-hx3VJAZMCaqVSOly3s">via GIPHY</a></p>
       </Fragment>
     )
   }
@@ -17,7 +17,7 @@ export function Home () {
   if (error) {
     return (
       <Fragment>
-        ¯\_(ツ)_/¯
+        This worked on my machine at home ...
       </Fragment>
     )
   }

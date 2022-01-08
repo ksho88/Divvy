@@ -13,7 +13,10 @@ function AppRouter () {
               <Link to='/'>Home</Link>
             </li>
             <li>
-              <Link to='/another'>Another route</Link>
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Please for the love of all that is holy dont click this button  </a>
+            </li>
+            <li>
+              <Link to='./hireMe'>Click here if you would </Link>
             </li>
           </ul>
         </nav>
@@ -32,6 +35,7 @@ const layoutStyle = css`
     display: grid;
     grid-row-gap: 24px;
     padding: 8px;
+    background color: black;
 `
 
 const navStyle = css`
@@ -41,6 +45,8 @@ const navStyle = css`
       display: flex;
       flex-direction: row;
       list-style-type: none;
+      
+
   }
   
   & > ul > li:not(:first-of-type) {
@@ -51,3 +57,5 @@ const navStyle = css`
 const contentStyle = css`
   grid-row: 2;
 `
+const iframe = css`
+background `
